@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+```markdown
+# Pro KanBan: Advanced Project Management Tool
 
-## Getting Started
+Pro KanBan is a powerful, feature-rich Kanban board application built with Next.js, React, and TypeScript. It offers a modern, intuitive interface for efficient project and task management.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **📊 Interactive Kanban Board**: Visualize your workflow with customizable columns.
+- **🔄 Drag-and-Drop**: Easily move tasks between different stages.
+- **🏷️ Task Tagging**: Categorize and filter tasks with customizable tags.
+- **📅 Due Dates**: Set and track deadlines with color-coded urgency indicators.
+- **📌 Task Pinning**: Highlight important tasks by pinning them to the top.
+- **💬 Comments**: Collaborate on tasks with a built-in commenting system.
+- **🔗 Attachments**: Add links and file attachments to tasks for comprehensive documentation.
+- **🔍 Advanced Filtering**: Filter tasks by status, priority, tags, and more.
+- **🔢 Flexible Sorting**: Sort tasks by due date, priority, creation date, or title.
+- **📁 Task Archiving**: Keep your board clean by archiving completed tasks.
+- **🌓 Dark Mode**: Toggle between light and dark themes for comfortable viewing.
+- **📱 Responsive Design**: Fully functional on both desktop and mobile devices.
+
+## 🛠️ Technology Stack
+
+- **Frontend**: React, Next.js
+- **State Management**: React Context API
+- **Styling**: Tailwind CSS, shadcn/ui
+- **Drag-and-Drop**: @hello-pangea/dnd
+- **Date Handling**: date-fns
+- **TypeScript**: For type-safe code
+- **Deployment**: Vercel (recommended)
+
+## 🚀 Getting Started
+
+1. Clone the repository:
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+git clone [https://github.com/yourusername/pro-kanban.git](https://github.com/yourusername/pro-kanban.git)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```plaintext
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Install dependencies:
+```
 
-## Learn More
+cd pro-kanban
+npm install
 
-To learn more about Next.js, take a look at the following resources:
+```plaintext
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Run the development server:
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+npm run dev
 
-## Deploy on Vercel
+```plaintext
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📸 Screenshots
+
+![Kanban Board](/placeholder.svg?height=300&width=600)
+*Main Kanban Board View*
+
+![Task Details](/placeholder.svg?height=300&width=600)
+*Task Details with Comments and Attachments*
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## 🙏 Acknowledgements
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Vercel](https://vercel.com/)
+
+---
+
+Built with ❤️ by [Your Name](https://github.com/yourusername)
+```
