@@ -31,54 +31,27 @@ Pro KanBan is a powerful, feature-rich Kanban board application built with Next.
 ## 🚀 Getting Started
 
 1. Clone the repository:
-```
 
-git clone [https://github.com/yourusername/pro-kanban.git](https://github.com/yourusername/pro-kanban.git)
+git clone [https://github.com/yash-sis/prokanban.git](https://github.com/yash-sis/prokanban.git)
 
-```plaintext
+plaintext
 
 2. Install dependencies:
-```
 
 cd pro-kanban
 npm install
 
-```plaintext
+plaintext
 
 3. Run the development server:
-```
 
 npm run dev
 
-```plaintext
+plaintext
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-## 📸 Screenshots
-
-![Kanban Board](/placeholder.svg?height=300&width=600)
-*Main Kanban Board View*
-
-![Task Details](/placeholder.svg?height=300&width=600)
-*Task Details with Comments and Attachments*
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## 🙏 Acknowledgements
-
-- [Next.js](https://nextjs.org/)
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [shadcn/ui](https://ui.shadcn.com/)
-- [Vercel](https://vercel.com/)
-
 ---
 
-Built with ❤️ by [Your Name](https://github.com/yourusername)
+Built with ❤️ by [Yash Sisodia](https://github.com/yash-sis)
 ```
